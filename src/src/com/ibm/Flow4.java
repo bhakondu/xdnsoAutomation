@@ -25,9 +25,9 @@ public class Flow4 {
 		
 		driver.get("https://w3-01.ibm.com/tools/wse/runtime/hspx/dev/protect/X0038/xDNSO/page/home?x_role=Noticer");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.findElement(By.xpath(".//*[@id='desktop']")).sendKeys("bhakondu@in.ibm.com");
+		driver.findElement(By.xpath(".//*[@id='desktop']")).sendKeys("xxxxxxx");
 		Thread.sleep(5000);
-		driver.findElement(By.xpath(".//*[@id='body']/div[1]/div[2]/div/div/form/input[4]")).sendKeys("bharu@515");
+		driver.findElement(By.xpath(".//*[@id='body']/div[1]/div[2]/div/div/form/input[4]")).sendKeys("xxxxxx");
 		Thread.sleep(5000);
 		
 		driver.findElement(By.xpath(".//*[@id='btn_signin']")).click();
