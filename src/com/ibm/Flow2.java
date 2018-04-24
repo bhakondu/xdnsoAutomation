@@ -22,8 +22,10 @@ public class Flow2 {
 		
 		driver.get("https://w3-01.ibm.com/tools/wse/runtime/hspx/dev/protect/X0038/xDNSO/page/home?x_role=Noticer");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//for providing username
 		driver.findElement(By.xpath(".//*[@id='desktop']")).sendKeys("xxxxxxx");
 		Thread.sleep(5000);
+		//for providing password
 		driver.findElement(By.xpath(".//*[@id='body']/div[1]/div[2]/div/div/form/input[4]")).sendKeys("xxxxxxx");
 		Thread.sleep(5000);
 		
